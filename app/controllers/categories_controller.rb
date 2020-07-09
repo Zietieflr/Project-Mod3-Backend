@@ -10,4 +10,12 @@ class CategoriesController < ApplicationController
 
     render json: @category
   end
+
+  def random
+    category_count = Category.all.count
+    id = rand(category_count)
+    @category = Category.find(id)
+
+    render json: @category
+  end
 end

@@ -1,5 +1,5 @@
-
-categories = 'aircraft carrier
+# categories =
+'aircraft carrier
 airplane
 alarm clock
 ambulance
@@ -345,4 +345,4 @@ yoga
 zebra
 zigzag'.split("\n")
 
-capital_categories = categories.map(&:capitalize)
+# capital_categories = categories.map(&:capitalize)
